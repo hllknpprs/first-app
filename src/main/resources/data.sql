@@ -1,0 +1,11 @@
+Insert into Employer (Name) values ('Pentasys');
+Insert into Employer (Name) values ('TestAG');
+Insert into Employee (First_Name, Last_Name, Employer_ID) values ('Klaus', 'Schmidt', 1);
+Insert into Employee (First_Name, Last_Name, Employer_ID) values ('Hans', 'Baum', 1);
+Insert into Employee (First_Name, Last_Name, Employer_ID) values ('Stefan', 'Müller', 2);
+Insert into Team (Name) values ('Android');
+Insert into Team (Name) values ('IOS');
+Insert into Role (Name) values ('Developer');
+Insert into Role (Name) values ('Scrum master');
+Insert into Position (Employee_Id, Role_Id, Team_Id, Anteil) Values(1,1,1,1);
+Insert into Position (Employee_Id, Role_Id, Team_Id, Anteil) Values(2,1,1,1);

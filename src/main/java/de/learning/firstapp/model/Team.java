@@ -15,8 +15,6 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
 
-    private String testProperty2;
-
     @Column(nullable=false)
     private String Name;
 
